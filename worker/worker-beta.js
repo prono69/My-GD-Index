@@ -27,14 +27,14 @@ const authConfig = {
     "roots":[
       {
           "id": "root",
-          "name": "Drive One",
-          "protect_file_link": false,
+          "name": "Pirates Drive One",
+          "protect_file_link": true,
          // "auth": {"username":"password"} /* Remove double slash before "auth" to activate id password protection */
       },
       {
           "id": "root",
-          "name": "Drive Two",
-          "protect_file_link": false,
+          "name": "Pirates Drive Two",
+          "protect_file_link": true,
          // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
       },
     ]};
@@ -64,7 +64,7 @@ const uiConfig = {
     "logo_width": "100px", // only if logo_image is true
     "favicon": "https://cdn.jsdelivr.net/npm/@googledrive/index@2.0.20/images/favicon.ico",
     // if logo is true then link otherwise just text for name
-    "logo_link_name": "https://cdn.jsdelivr.net/npm/@googledrive/index@2.0.20/images/bhadoo-cloud-logo-white.svg",
+    "logo_link_name": "https://shields.io/badge/PIRATES_CLOUD-purple?logo=&style=for-the-badge",
     "fixed_header": true, // If you want the footer to be flexible or fixed.
     "header_padding": "60", // Value 60 for fixed header, Value 20 for flexible header. Required to be changed accordingly in some themes.
     "nav_link_1": "Home", // change navigation link name
@@ -82,10 +82,10 @@ const uiConfig = {
     "path_nav_alert_class": "alert alert-primary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "file_view_alert_class": "alert alert-danger", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "file_count_alert_class": "alert alert-secondary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
-    "contact_link": "https://telegram.dog/Telegram", // Link to Contact Button on Menu
+    "contact_link": "https://t.me/joinchat/wXmIMIJbWCxkMjRl", // Link to Contact Button on Menu
     "copyright_year": "2050", // year of copyright, can be anything like 2015 - 2020 or just 2020
-    "company_name": "Bhadoo Cloud", // Name next to copyright
-    "company_link": "https://telegram.dog/Telegram", // link of copyright name
+    "company_name": "Pirates Cloud", // Name next to copyright
+    "company_link": "https://t.me/joinchat/wXmIMIJbWCxkMjRl", // link of copyright name
     "credit": true, // Set this to true to give us credit
     "display_size": true, // Set this to false to hide display file size
     "display_time": false, // Set this to false to hide display modified time for folder and files
@@ -103,10 +103,10 @@ const uiConfig = {
     "display_drive_link": false, // This will add a Link Button to Google Drive of that particular file.
     "plyr_io_version": "3.6.4", // Change plyr.io version in future when needed.
     "plyr_io_video_resolution": "16:9", // For reference, visit: https://github.com/sampotts/plyr#options
-    "unauthorized_owner_link": "https://telegram.dog/Telegram", // Unauthorized Error Page Link to Owner
-    "unauthorized_owner_email": "abuse@telegram.org", // Unauthorized Error Page Owner Email
+    "unauthorized_owner_link": "https://t.me/joinchat/M-TvB4JdlzE1N2Rl", // Unauthorized Error Page Link to Owner
+    "unauthorized_owner_email": "@PiratesOT", // Unauthorized Error Page Owner Email
     "arc_code": "jfoY2h19", // arc.io Integration Code, get yours from https://portal.arc.io
-    "search_all_drives": false // turn this on to switch this to gdrive search application
+    "search_all_drives": true // turn this on to switch this to gdrive search application
 };
 
 
