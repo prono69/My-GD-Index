@@ -1,15 +1,10 @@
-# Google Personal/Shared Drive Index
+⚠ DON'T TOUCH, PRIVATE INDEX ⚠
 
-[![](https://data.jsdelivr.com/v1/package/npm/@googledrive/index/badge/year)](https://cdn.jsdelivr.net/npm/@googledrive/index)
-[![](https://data.jsdelivr.com/v1/package/npm/@googledrive/index/badge/month)](https://cdn.jsdelivr.net/npm/@googledrive/index)
-[![](https://data.jsdelivr.com/v1/package/npm/@googledrive/index/badge/week)](https://cdn.jsdelivr.net/npm/@googledrive/index)
-[![](https://data.jsdelivr.com/v1/package/npm/@googledrive/index/badge/day)](https://cdn.jsdelivr.net/npm/@googledrive/index)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://www.npmjs.com/package/@googledrive/index&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://www.npmjs.com/package/@googledrive/index)
+# Google Personal/Shared Drive Index
 
 ## Full White label and Customizable Index | One of a kind
 
 * Supports Both My and Team/Shared Drives with Dark Mode.
-* Click https://bdi-generator.hashhackers.com to make yours or watch https://youtu.be/Ihk4Gm3DPvg.
 
 [![Screenshot](https://gitlab.com/ParveenBhadooOfficial/Google-Drive-Index/-/raw/master/images/themes/vapor.png)](https://youtu.be/Ihk4Gm3DPvg)
 
@@ -20,7 +15,7 @@
 ## How to
 
 * Stable Release `2.0.20`
-* Beta Version (Latest) - [bdi-generator](https://bdi-generator.hashhackers.com) (For Dark Theme use darkly)
+* Beta Version (Latest) - (For Dark Theme use darkly)
 * If you want to deploy main drive leave the option ROOT as it is.
 * If you want to deploy your Team Drive/Shared Drive/Folder then copy the ID and replace it with ROOT.
 * Eg. if you open this shared drive `https://drive.google.com/drive/u/0/folders/0AOM2i7MQiuWIUk9PVA` - `0AOM2i7MQiuWIUk9PVA` is its ID.
@@ -214,35 +209,6 @@ const uiConfig = {
 * use `params.orderBy = 'folder,modifiedTime desc,name';` to sort by Modified Time.
 * A comma-separated list of sort keys. Valid keys are 'createdTime', 'folder', 'modifiedByMeTime', 'modifiedTime', 'name', 'name_natural', 'quotaBytesUsed', 'recency', 'sharedWithMeTime', 'starred', and 'viewedByMeTime'. Each key sorts ascending by default, but may be reversed with the 'desc' modifier. Example usage: ?orderBy=folder,modifiedTime desc,name. Please note that there is a current limitation for users with approximately one million files in which the requested sort order is ignored.
 
-## Making your own repo, editing and making changes
-
-* Fork this Repo or Import.
-* Make your changes in `app.js` and `workers-beta.js` files.
-* Make a new release in GitHub.
-* Change jsDelivr CDN URL and version code in `workers-beta.js`.
-* Deploy in Cloud flare Workers.
-
-## Get Google_Client_ID and Secret and Generate Token
-
-* Open [Google Dev Credentials Site](https://console.developers.google.com/apis/credentials).
-* Create a Project, name as you like.
-* Enable [Drive API](https://console.developers.google.com/apis/library/drive.googleapis.com)
-* In [Credentials Page](https://console.developers.google.com/apis/credentials) Click `Create Credentials` and then Click `OAuth Client ID`.
-* Click Configure Consent Screen.
-* Select External.
-* Fill your APP Details
-* Select Scope as `https://www.googleapis.com/auth/drive` (wait few hours if Google Drive is not showing up if you've just enabled the scope) or
-* You can also enter manual scope `https://www.googleapis.com/auth/drive` and click on add to table and then save or update.
-* Proceed with Save and Continue.
-* Add your email id you want to use as test user, up to 100 emails maximum. (Because you are not verified)
-* In [Credentials Page](https://console.developers.google.com/apis/credentials) Click `Create Credentials` and then Click `OAuth Client ID`.
-* Select Desktop App.
-* Now you have your own CLIENT ID and CLIENT SECRET.
-* Copy your details and save for future use.
-* Copy worker-generator.js code.
-* Replace Line 6 and 7 with your own CLIENT ID and CLIENT SECRET.
-* Paste this code in Cloud flare Workers and follow the site.
-
 ## Upcoming Changes
 
 * Adding More Features from other Indexes.
@@ -264,13 +230,3 @@ const uiConfig = {
 * These Index's are written by someone else, possibly by donva and [maple3142](https://github.com/maple3142/GDIndex).
 * Beta Version is redesigned using Bootstrap from Alpha Version by [Parveen Bhadoo](https://twitter.com/ParveenBhadoo).
 * This Repo was imported from [yanzai](https://github.com/yanzai/goindex) and then modified for personal use.
-
-## Support this Project
-
-[![Support](https://cdn.buymeacoffee.com/buttons/v2/default-white.png)](https://www.buymeacoffee.com/bhadoo)
-
-### Donate by Crpto
-
-* ETH `0xaf25cdc7967213172a745453a64e8a0b59686729`
-* BTC `3BgSznxLB5u4WiuVERb1dKWeTqSSwK9NPW`
-* BAT `0xaf25cdc7967213172a745453a64e8a0b59686729`
