@@ -3,11 +3,11 @@ addEventListener('fetch', event => {
 });
 
 const tokenURL = 'https://www.googleapis.com/oauth2/v4/token';
-const clientId = '746239575955-oao9hkv614p8glrqpvuh5i8mqfoq145b.apps.googleusercontent.com';
-const clientSecret = 'u5a1CSY5pNjdD2tGTU93TTnI';
+const clientId = '643126170682-k2aggk87nb50lnprj6qc4nr9ih5qrglo.apps.googleusercontent.com';
+const clientSecret = 'mfdWLwMVHOUs18xHUamuDkT-';
 const grantType = 'authorization_code';
 const redirectURI = 'urn:ietf:wg:oauth:2.0:oob';
-const jsURL = 'https://gitlab.com/ParveenBhadooOfficial/Google-Drive-Index/-/raw/master/worker/worker-beta.js';
+const jsURL = 'https://github.com/theaterplus/My-GD-Index/-/raw/master/worker/worker-beta.js';
 
 async function handleRequest(request) {
     let title = getParameterByName(request.url, 'site_name') || 'Bhadoo Drive Index';
