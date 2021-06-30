@@ -14,7 +14,7 @@ const serviceaccounts = [
 const randomserviceaccount = serviceaccounts[Math.floor(Math.random()*serviceaccounts.length)];
 
 const authConfig = {
-    "siteName": "Bhadoo Drive Index", // Website name
+    "siteName": "Pirates Drive Index", // Website name
     "client_id": "643126170682-k2aggk87nb50lnprj6qc4nr9ih5qrglo.apps.googleusercontent.com", // Client id from Google Cloud Console
     "client_secret": "mfdWLwMVHOUs18xHUamuDkT-", // Client Secret from Google Cloud Console
     "refresh_token": "", // Authorize token
@@ -56,7 +56,7 @@ const authConfig = {
 ░░░╚═╝░░░╚═╝░░╚═╝╚══════╝░╚═════╝░╚══════╝╚═════╝░*/
 
 const uiConfig = {
-    "theme": "slate", // switch between themes, default set to vapor, select from https://www.npmjs.com/package/@googledrive/index
+    "theme": "vapor", // switch between themes, default set to vapor, select from https://www.npmjs.com/package/@googledrive/index
     "version": "2.0.20", // don't touch this one. get latest code using generator at https://bdi-generator.hashhackers.com
     // If you're using Image then set to true, If you want text then set it to false
     "logo_image": true, // true if you're using image link in next option.
@@ -135,7 +135,6 @@ function html(current_drive_order = 0, model = {}) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
   <title>${authConfig.siteName}</title>
-  <script async src="https://arc.io/widget.min.js#${uiConfig.arc_code}"></script>
   <meta name="robots" content="noindex" />
   <link rel="icon" href="${uiConfig.favicon}">
   <script>
