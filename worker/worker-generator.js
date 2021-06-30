@@ -7,7 +7,7 @@ const clientId = '643126170682-k2aggk87nb50lnprj6qc4nr9ih5qrglo.apps.googleuserc
 const clientSecret = 'mfdWLwMVHOUs18xHUamuDkT-';
 const grantType = 'authorization_code';
 const redirectURI = 'urn:ietf:wg:oauth:2.0:oob';
-const jsURL = 'https://raw.githubusercontent.com/theaterplus/My-GD-Index/master/worker/worker-beta.js';
+const jsURL = 'https://raw.githubusercontent.com/theaterplus/My-GD-Index/master/worker/worker-beta.js?token=AQXDAQB35RKVYBWZSDEJSC3A3RWSO';
 
 async function handleRequest(request) {
     let title = getParameterByName(request.url, 'site_name') || 'Bhadoo Drive Index';
