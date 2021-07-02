@@ -27,16 +27,76 @@ const authConfig = {
     "roots":[
       {
           "id": "root",
-          "name": "Pirates Drive One",
+          "name": "Pirates Drive #1",
           "protect_file_link": true,
-         // "auth": {"username":"password"} /* Remove double slash before "auth" to activate id password protection */
+          "auth": {"Pirates":"Cloud9X"} /* Remove double slash before "auth" to activate id password protection */
       },
       {
           "id": "root",
-          "name": "Pirates Drive Two",
+          "name": "Pirates Drive #2",
           "protect_file_link": true,
+          "auth": {"Pirates":"Cloud9X", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
+      },
+      {
+          "id": "root",
+          "name": "Pirates Drive #3",
+          "protect_file_link": false,
          // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
       },
+      {
+          "id": "root",
+          "name": "Pirates Drive #4",
+          "protect_file_link": false,
+         // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
+      },
+      {
+          "id": "root",
+          "name": "Pirates Drive #5",
+          "protect_file_link": false,
+         // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
+      },
+      {
+          "id": "root",
+          "name": "Pirates Drive #6",
+          "protect_file_link": false,
+         // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
+      },
+      {
+          "id": "root",
+          "name": "Pirates Drive #7",
+          "protect_file_link": false,
+         // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
+      },
+      {
+          "id": "root",
+          "name": "Pirates Drive #8",
+          "protect_file_link": false,
+         // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
+      },
+      {
+          "id": "root",
+          "name": "Pirates Drive #9",
+          "protect_file_link": false,
+         // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
+      },
+      {
+          "id": "root",
+          "name": "Pirates Drive #10",
+          "protect_file_link": false,
+         // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
+      },
+      {
+          "id": "root",
+          "name": "Pirates Drive #11",
+          "protect_file_link": false,
+         // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
+      },
+      {
+          "id": "root",
+          "name": "Pirates Drive #12",
+          "protect_file_link": false,
+         // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
+      },    
     ]};
 
 
