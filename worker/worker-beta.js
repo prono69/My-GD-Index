@@ -5,7 +5,7 @@
     ╚██████╔╝██████╔╝██║██╗╚█████╔╝██████╔╝██╗╚█████╔╝██║░░██║╚██████╔╝
     ░╚═════╝░╚═════╝░╚═╝╚═╝░╚════╝░╚═════╝░╚═╝░╚════╝░╚═╝░░╚═╝░╚═════╝░
                              v 2.0.20
-A Script Redesigned by Parveen Bhadoo from GOIndex at https://www.npmjs.com/package/@googledrive/index */
+A Script Redesigned by Pirates from GOIndex at https://github.com/theaterplus/My-GD-Index */
 
 // add multiple serviceaccounts as {}, {}, {}, random account will be selected by each time app is opened.
 const serviceaccounts = [
@@ -116,8 +116,8 @@ const authConfig = {
 ░░░╚═╝░░░╚═╝░░╚═╝╚══════╝░╚═════╝░╚══════╝╚═════╝░*/
 
 const uiConfig = {
-    "theme": "vapor", // switch between themes, default set to vapor, select from https://www.npmjs.com/package/@googledrive/index
-    "version": "2.0.20", // don't touch this one. get latest code using generator at https://bdi-generator.hashhackers.com
+    "theme": "vapor", // switch between themes, default set to vapor
+    "version": "2.0.20", // don't touch this one.
     // If you're using Image then set to true, If you want text then set it to false
     "logo_image": true, // true if you're using image link in next option.
     "logo_height": "", // only if logo_image is true
@@ -131,7 +131,7 @@ const uiConfig = {
     "nav_link_3": "Current Path", // change navigation link name
     "nav_link_4": "Contact", // change navigation link name
     "fixed_footer": false, // If you want the footer to be flexible or fixed.
-    "hide_footer": true, // hides the footer from site entirely.
+    "hide_footer": false, // hides the footer from site entirely.
     "header_style_class": "navbar-dark bg-primary", // navbar-dark bg-primary || navbar-dark bg-dark || navbar-light bg-light
     "footer_style_class": "bg-primary", // bg-primary || bg-dark || bg-light
     "css_a_tag_color": "white", // Color Name or Hex Code eg. #ffffff
@@ -146,7 +146,7 @@ const uiConfig = {
     "copyright_year": "2050", // year of copyright, can be anything like 2015 - 2020 or just 2020
     "company_name": "Pirates Cloud", // Name next to copyright
     "company_link": "https://t.me/joinchat/wXmIMIJbWCxkMjRl", // link of copyright name
-    "credit": true, // Set this to true to give us credit
+    "credit": false, // Set this to true to give us credit
     "display_size": true, // Set this to false to hide display file size
     "display_time": false, // Set this to false to hide display modified time for folder and files
     "display_download": true, // Set this to false to hide download icon for folder and files on main index
@@ -166,7 +166,7 @@ const uiConfig = {
     "unauthorized_owner_link": "https://t.me/joinchat/M-TvB4JdlzE1N2Rl", // Unauthorized Error Page Link to Owner
     "unauthorized_owner_email": "@PiratesOT", // Unauthorized Error Page Owner Email
     "arc_code": "jfoY2h19", // arc.io Integration Code, get yours from https://portal.arc.io
-    "search_all_drives": true // turn this on to switch this to gdrive search application
+    "search_all_drives": false // turn this on to switch this to gdrive search application
 };
 
 
