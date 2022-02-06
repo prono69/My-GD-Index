@@ -27,73 +27,73 @@ const authConfig = {
     "roots":[
       {
           "id": "root",
-          "name": "Pirates Drive #1",
+          "name": "Drive #1",
           "protect_file_link": true,
           "auth": {"Pirates":"Cloud9X"} /* Remove double slash before "auth" to activate id password protection */
       },
       {
           "id": "root",
-          "name": "Pirates Drive #2",
+          "name": "Drive #2",
           "protect_file_link": true,
-          "auth": {"Pirates":"Cloud9X", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
+          "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
       },
       {
           "id": "root",
-          "name": "Pirates Drive #3",
+          "name": "Drive #3",
           "protect_file_link": false,
          // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
       },
       {
           "id": "root",
-          "name": "Pirates Drive #4",
+          "name": "Drive #4",
           "protect_file_link": false,
          // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
       },
       {
           "id": "root",
-          "name": "Pirates Drive #5",
+          "name": "Drive #5",
           "protect_file_link": false,
          // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
       },
       {
           "id": "root",
-          "name": "Pirates Drive #6",
+          "name": "Drive #6",
           "protect_file_link": false,
          // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
       },
       {
           "id": "root",
-          "name": "Pirates Drive #7",
+          "name": "Drive #7",
           "protect_file_link": false,
          // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
       },
       {
           "id": "root",
-          "name": "Pirates Drive #8",
+          "name": "Drive #8",
           "protect_file_link": false,
          // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
       },
       {
           "id": "root",
-          "name": "Pirates Drive #9",
+          "name": "Drive #9",
           "protect_file_link": false,
          // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
       },
       {
           "id": "root",
-          "name": "Pirates Drive #10",
+          "name": "Drive #10",
           "protect_file_link": false,
          // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
       },
       {
           "id": "root",
-          "name": "Pirates Drive #11",
+          "name": "Drive #11",
           "protect_file_link": false,
          // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
       },
       {
           "id": "root",
-          "name": "Pirates Drive #12",
+          "name": "Drive #12",
           "protect_file_link": false,
          // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
       },    
@@ -124,7 +124,7 @@ const uiConfig = {
     "logo_width": "100px", // only if logo_image is true
     "favicon": "https://cdn.jsdelivr.net/npm/@googledrive/index@2.0.20/images/favicon.ico",
     // if logo is true then link otherwise just text for name
-    "logo_link_name": "https://shields.io/badge/PIRATES_CLOUD-purple?logo=&style=for-the-badge",
+    "logo_link_name": "https://shields.io/badge/PC-purple?logo=&style=for-the-badge",
     "fixed_header": true, // If you want the footer to be flexible or fixed.
     "header_padding": "60", // Value 60 for fixed header, Value 20 for flexible header. Required to be changed accordingly in some themes.
     "nav_link_1": "Home", // change navigation link name
@@ -142,10 +142,10 @@ const uiConfig = {
     "path_nav_alert_class": "alert alert-primary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "file_view_alert_class": "alert alert-danger", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "file_count_alert_class": "alert alert-secondary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
-    "contact_link": "https://t.me/joinchat/wXmIMIJbWCxkMjRl", // Link to Contact Button on Menu
+    "contact_link": "https://t.me/B0THelp", // Link to Contact Button on Menu
     "copyright_year": "2050", // year of copyright, can be anything like 2015 - 2020 or just 2020
-    "company_name": "Pirates Cloud", // Name next to copyright
-    "company_link": "https://t.me/joinchat/wXmIMIJbWCxkMjRl", // link of copyright name
+    "company_name": "PC", // Name next to copyright
+    "company_link": "https://t.me/B0THelp", // link of copyright name
     "credit": false, // Set this to true to give us credit
     "display_size": true, // Set this to false to hide display file size
     "display_time": false, // Set this to false to hide display modified time for folder and files
@@ -163,10 +163,10 @@ const uiConfig = {
     "display_drive_link": false, // This will add a Link Button to Google Drive of that particular file.
     "plyr_io_version": "3.6.4", // Change plyr.io version in future when needed.
     "plyr_io_video_resolution": "16:9", // For reference, visit: https://github.com/sampotts/plyr#options
-    "unauthorized_owner_link": "https://t.me/joinchat/M-TvB4JdlzE1N2Rl", // Unauthorized Error Page Link to Owner
-    "unauthorized_owner_email": "@PiratesOT", // Unauthorized Error Page Owner Email
+    "unauthorized_owner_link": "https://t.me/PunisheRCB", // Unauthorized Error Page Link to Owner
+    "unauthorized_owner_email": "@PunisheRCB", // Unauthorized Error Page Owner Email
     "arc_code": "jfoY2h19", // arc.io Integration Code, get yours from https://portal.arc.io
-    "search_all_drives": false // turn this on to switch this to gdrive search application
+    "search_all_drives": true // turn this on to switch this to gdrive search application
 };
 
 
